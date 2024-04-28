@@ -1,0 +1,6 @@
+(version 1)
+
+(rule HV_HV
+   # wider clearance between HV tracks
+   (constraint clearance (min "10.5mm + 2.0mm"))
+   (condition "A.NetClass == 'Antenna_50R' && B.NetClass == 'VBUS'"))
