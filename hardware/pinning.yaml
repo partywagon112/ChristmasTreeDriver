@@ -547,9 +547,9 @@ nets:
     - U[0-9]RXD
   /Bridge Driver/nFault:
     - GPIO[0-9].*
-  /Bridge Driver/_EN/IN1:
+  /Bridge Driver/_EN{slash}IN1:
     - GPIO[0-9].*
-  /Bridge Driver/_PH/IN2:
+  /Bridge Driver/_PH{slash}IN2:
     - GPIO[0-9].*
   /Bridge Driver/_DRVOFF:
     - GPIO[0-9].*

@@ -5,6 +5,654 @@
 	(uuid "28add4ae-3adb-4a00-b8a3-b071bd0bc6e2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "CP2102N-A02-GQFN28R_1"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CP2102N-A02-GQFN28R"
+				(at 12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm_ThermalVias"
+				(at 33.02 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://partdb.franks.dascheese.online/en/part/61/info"
+				(at 1.27 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Integrated/Interfaces"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CP2102N-A02-GQFN28R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Silicon Labs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" "Active"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "28-QFN (5x5)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "61"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*5x5mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP2102N-A02-GQFN28R_1_0_1"
+				(rectangle
+					(start -10.16 30.48)
+					(end 10.16 -30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CP2102N-A02-GQFN28R_1_1_1"
+				(pin input line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(name "~{DCD}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -27.94 0)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "~{SUSPEND}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "SUSPEND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -22.86 180)
+					(length 2.54)
+					(name "CHREN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -27.94 180)
+					(length 2.54)
+					(name "CHR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -25.4 180)
+					(length 2.54)
+					(name "CHR0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "~{WAKEUP}/GPIO.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "RS485/GPIO.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "~{RXT}/GPIO.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "~{TXT}/GPIO.0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "~{RI}/CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -17.78 180)
+					(length 2.54)
+					(name "GPIO.6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "GPIO.5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "GPIO.4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "~{CTS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 22.86 180)
+					(length 2.54)
+					(name "~{RTS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 25.4 180)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 27.94 180)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 17.78 180)
+					(length 2.54)
+					(name "~{DSR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "~{DTR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -33.02 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 33.02 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 33.02 270)
+					(length 2.54)
+					(name "VREGIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 27.94 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CR0402AFX-2001GAS_1"
 			(pin_numbers hide)
 			(pin_names
@@ -1951,654 +2599,6 @@
 				)
 			)
 		)
-		(symbol "frank_partdb:CP2102N-A02-GQFN28R"
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CP2102N-A02-GQFN28R"
-				(at 12.7 31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm"
-				(at 33.02 -31.75 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://partdb.franks.dascheese.online/en/part/61/info"
-				(at 1.27 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Integrated/Interfaces"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CP2102N-A02-GQFN28R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Silicon Labs"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturing Status" "Active"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB Footprint" "28-QFN (5x5)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB ID" "61"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "QFN*1EP*5x5mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CP2102N-A02-GQFN28R_0_1"
-				(rectangle
-					(start -10.16 30.48)
-					(end 10.16 -30.48)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CP2102N-A02-GQFN28R_1_1"
-				(pin input line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "~{DCD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -27.94 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "~{SUSPEND}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "SUSPEND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -22.86 180)
-					(length 2.54)
-					(name "CHREN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -27.94 180)
-					(length 2.54)
-					(name "CHR1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -25.4 180)
-					(length 2.54)
-					(name "CHR0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "~{WAKEUP}/GPIO.3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "RS485/GPIO.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "~{RXT}/GPIO.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "~{TXT}/GPIO.0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "~{RI}/CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -17.78 180)
-					(length 2.54)
-					(name "GPIO.6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -15.24 180)
-					(length 2.54)
-					(name "GPIO.5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "GPIO.4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 20.32 180)
-					(length 2.54)
-					(name "~{CTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 22.86 180)
-					(length 2.54)
-					(name "~{RTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 25.4 180)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 27.94 180)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 17.78 180)
-					(length 2.54)
-					(name "~{DSR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 15.24 180)
-					(length 2.54)
-					(name "~{DTR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -33.02 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -33.02 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 12.7 0)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 33.02 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 33.02 270)
-					(length 2.54)
-					(name "VREGIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 15.24 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 27.94 0)
-					(length 2.54)
-					(name "~{RST}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "frank_partdb:CR0402AFX-1001GAS"
 			(pin_numbers hide)
 			(pin_names
@@ -3225,172 +3225,6 @@
 				)
 			)
 			(symbol "CR0402AFX-4992GAS_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "frank_partdb:CR0402AJ/-000GLF"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://partdb.franks.dascheese.online/en/part/12/info"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "0 Ohms ±5% Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Resistors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CR0402AJ/-000GLF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Bourns Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturing Status" "Active"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB Footprint" "0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB ID" "12"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CR0402AJ/-000GLF_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CR0402AJ/-000GLF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5130,12 +4964,6 @@
 		(uuid "2802d99f-b189-40ed-be25-a49332e2777d")
 	)
 	(junction
-		(at 85.09 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3adee277-ce84-4358-932d-e444cc24891d")
-	)
-	(junction
 		(at 53.34 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5146,6 +4974,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ff37ed1-c2a3-4bd1-b12f-85d70277532b")
+	)
+	(junction
+		(at 85.09 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5267a125-000f-4a02-8726-da70b88bb5e7")
 	)
 	(junction
 		(at 17.78 85.09)
@@ -5332,16 +5166,6 @@
 			(type default)
 		)
 		(uuid "0865d9ba-0788-4af5-9eef-e0cb49756ea2")
-	)
-	(wire
-		(pts
-			(xy 137.16 77.47) (xy 137.16 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aad3fac-1cec-4ba2-9e31-24a2c9cad1a6")
 	)
 	(wire
 		(pts
@@ -5535,26 +5359,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 77.47) (xy 137.16 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e1e8e6-0c69-407a-8bb1-239533a38c30")
-	)
-	(wire
-		(pts
-			(xy 146.05 114.3) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450342d9-65bf-4faa-b726-90dd6473fa4c")
-	)
-	(wire
-		(pts
 			(xy 24.13 130.81) (xy 27.94 130.81)
 		)
 		(stroke
@@ -5625,6 +5429,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 73.66) (xy 208.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5952b9aa-5d58-4dd9-b247-222e1c806808")
+	)
+	(wire
+		(pts
 			(xy 45.72 119.38) (xy 45.72 125.73)
 		)
 		(stroke
@@ -5672,16 +5486,6 @@
 			(type default)
 		)
 		(uuid "667b2927-8a08-4391-bd43-2dd3c216feb8")
-	)
-	(wire
-		(pts
-			(xy 146.05 91.44) (xy 208.28 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67575663-144e-411b-a754-e7d1653aeecf")
 	)
 	(wire
 		(pts
@@ -5782,16 +5586,6 @@
 			(type default)
 		)
 		(uuid "86e24934-f4ac-4254-8e3e-b3bbc073375b")
-	)
-	(wire
-		(pts
-			(xy 137.16 91.44) (xy 138.43 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87581b54-bfd4-48b2-92e3-ac90994b91eb")
 	)
 	(wire
 		(pts
@@ -5955,16 +5749,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 114.3) (xy 138.43 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b65db139-7de1-408c-99ff-6d26fdebce5f")
-	)
-	(wire
-		(pts
 			(xy 237.49 44.45) (xy 248.92 44.45)
 		)
 		(stroke
@@ -6062,26 +5846,6 @@
 			(type default)
 		)
 		(uuid "d4c4622e-f762-44d7-8703-ee9a5d586586")
-	)
-	(wire
-		(pts
-			(xy 134.62 80.01) (xy 134.62 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d562bdfa-ad59-4c38-8f45-37c253e033b8")
-	)
-	(wire
-		(pts
-			(xy 100.33 80.01) (xy 134.62 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbc60cb4-b45d-4580-9d02-8df03efb25e8")
 	)
 	(wire
 		(pts
@@ -6250,7 +6014,7 @@
 		(uuid "557d0e76-4d6e-40aa-a8a5-1de425c5905c")
 	)
 	(label "~{RTS}"
-		(at 101.6 77.47 0)
+		(at 100.33 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6272,7 +6036,7 @@
 		(uuid "5ef710e1-d46f-499f-af38-783f2c3af941")
 	)
 	(label "_~{CTS}"
-		(at 207.01 114.3 180)
+		(at 208.28 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6305,7 +6069,7 @@
 		(uuid "87ba13c9-0dde-4cb6-b611-2d0b3ce035ea")
 	)
 	(label "~{CTS}"
-		(at 101.6 80.01 0)
+		(at 100.33 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6360,7 +6124,7 @@
 		(uuid "cef4a3d3-dfac-4f0c-8a4a-3bbe13ccf042")
 	)
 	(label "_~{RTS}"
-		(at 207.01 91.44 180)
+		(at 208.28 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6395,7 +6159,7 @@
 	)
 	(hierarchical_label "DRIVE_A"
 		(shape output)
-		(at 208.28 124.46 180)
+		(at 208.28 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6419,7 +6183,7 @@
 	)
 	(hierarchical_label "DRIVE_B"
 		(shape output)
-		(at 208.28 127 180)
+		(at 208.28 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6443,7 +6207,7 @@
 	)
 	(hierarchical_label "Fault"
 		(shape input)
-		(at 208.28 119.38 180)
+		(at 208.28 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6527,7 +6291,7 @@
 	)
 	(hierarchical_label "Current Sense"
 		(shape input)
-		(at 208.28 99.06 180)
+		(at 195.58 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6551,12 +6315,14 @@
 	)
 	(symbol
 		(lib_id "frank_partdb:RCLAMP0582B.TCT")
-		(at 50.8 99.06 90)
+		(at 50.8 99.06 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "02013f2d-29a6-4c3d-8d5d-3414847f0f43")
 		(property "Reference" "D1"
 			(at 55.88 97.7264 90)
@@ -6564,7 +6330,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "RCLAMP0582B.TCT"
@@ -6573,11 +6339,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-			(at 58.42 99.06 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,7 +6352,7 @@
 			)
 		)
 		(property "Datasheet" "http://partdb.franks.dascheese.online/en/part/77/info"
-			(at 48.26 97.79 0)
+			(at 53.34 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,211 +7366,6 @@
 		)
 	)
 	(symbol
-		(lib_id "frank_partdb:CP2102N-A02-GQFN28R")
-		(at 87.63 100.33 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a030f28-610b-4b6c-bc2e-5c78bc31a5aa")
-		(property "Reference" "U3"
-			(at 89.8241 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CP2102N-A02-GQFN28R"
-			(at 89.8241 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm"
-			(at 120.65 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://partdb.franks.dascheese.online/en/part/61/info"
-			(at 88.9 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)"
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Integrated/Interfaces"
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CP2102N-A02-GQFN28R"
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Silicon Labs"
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB Footprint" "28-QFN (5x5)"
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "61"
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97b61065-b596-4a7c-b413-f6b3116f547a")
-		)
-		(pin "10"
-			(uuid "60be8392-f259-4d9e-81b5-b3dd896e82b2")
-		)
-		(pin "24"
-			(uuid "eec631f7-a92e-4bb9-87d3-7c75ca41fb70")
-		)
-		(pin "4"
-			(uuid "61c4bae0-b4df-4239-89d4-71d859ad3699")
-		)
-		(pin "7"
-			(uuid "14e36a01-c47c-42f8-bdde-ff89ffc95899")
-		)
-		(pin "17"
-			(uuid "7303fdb4-e891-4ed4-a658-bee3f99bde2d")
-		)
-		(pin "12"
-			(uuid "241a6a8f-1cd6-4dec-8416-8cebb7cf65af")
-		)
-		(pin "26"
-			(uuid "804e49e5-08a0-49d1-ba96-784948c62363")
-		)
-		(pin "29"
-			(uuid "0615a213-a3b4-4f7f-a233-e0ae6d9a1042")
-		)
-		(pin "20"
-			(uuid "a07eb427-e7cf-4967-a19f-bd61916cf520")
-		)
-		(pin "5"
-			(uuid "2ace773b-817c-4e25-9647-bb27713786fe")
-		)
-		(pin "25"
-			(uuid "6cbd22b9-cba8-446d-97e8-31e63503b861")
-		)
-		(pin "21"
-			(uuid "d2a0930c-cd11-4345-92a1-696759c4c2d8")
-		)
-		(pin "8"
-			(uuid "c0c09e6e-3d65-4fb4-b32e-9a6d6d472878")
-		)
-		(pin "28"
-			(uuid "9ff06a6d-1dff-472c-ae4a-3c5d308de251")
-		)
-		(pin "27"
-			(uuid "b39642f5-99eb-4044-a7cd-64e060e82ce0")
-		)
-		(pin "16"
-			(uuid "cf58492e-a173-44d5-b551-7276d9a650d3")
-		)
-		(pin "3"
-			(uuid "719260c7-cd09-4184-8a32-f54dcd3f8b98")
-		)
-		(pin "9"
-			(uuid "9c5d1c9c-3b4a-47af-adb6-bbad3877d0e2")
-		)
-		(pin "11"
-			(uuid "14a178a4-598c-4224-8939-7431f61f9418")
-		)
-		(pin "6"
-			(uuid "f150e910-2218-48ae-b2db-63d1c8fce049")
-		)
-		(pin "13"
-			(uuid "b460fa19-99ae-46b1-878d-e9b49c1c80fa")
-		)
-		(pin "14"
-			(uuid "fc8421bc-c96f-491e-ad9a-247becc0c1c4")
-		)
-		(pin "15"
-			(uuid "68b449a6-172e-452d-8d48-6769a8e9fe1e")
-		)
-		(pin "18"
-			(uuid "0a7631e1-5cee-44b0-853e-8d5d2232bffd")
-		)
-		(pin "19"
-			(uuid "f568b4dd-efff-45a9-ad4b-ee7d45c33f5e")
-		)
-		(pin "22"
-			(uuid "96af405e-57ce-4983-b14f-b3765298a58a")
-		)
-		(pin "23"
-			(uuid "9355e471-361c-4cff-8dbe-fe5596fd12f9")
-		)
-		(pin "2"
-			(uuid "71f32fd3-737c-481e-b700-d3015b1cc752")
-		)
-		(instances
-			(project "christmastreedriver"
-				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35/4b97c7ff-a227-414c-9641-03bffe5fba15"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "frank_partdb:BC817RAPNZ")
 		(at 43.18 130.81 0)
 		(unit 1)
@@ -8240,6 +7801,212 @@
 			(project "christmastreedriver"
 				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35/4b97c7ff-a227-414c-9641-03bffe5fba15"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CP2102N-A02-GQFN28R_1")
+		(lib_id "frank_partdb:CP2102N-A02-GQFN28R")
+		(at 87.63 100.33 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4aaba258-750b-46be-9843-e48651b34a1f")
+		(property "Reference" "U3"
+			(at 89.8241 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CP2102N-A02-GQFN28R"
+			(at 89.8241 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm_ThermalVias"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://partdb.franks.dascheese.online/en/part/61/info"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Integrated/Interfaces"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CP2102N-A02-GQFN28R"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Silicon Labs"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" "Active"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "28-QFN (5x5)"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "61"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "2a5bc84e-6306-497f-a81f-53759e928c81")
+		)
+		(pin "25"
+			(uuid "28a5ae78-6ad6-4402-a65f-6cd603f76579")
+		)
+		(pin "20"
+			(uuid "85b41378-0dc7-47a8-a479-bb31f664a360")
+		)
+		(pin "29"
+			(uuid "87f6f9c3-7fe3-41e7-b6a5-ae0b8ce9ffc7")
+		)
+		(pin "2"
+			(uuid "21efe1a9-893c-4d5b-b91f-8295ee95558c")
+		)
+		(pin "10"
+			(uuid "5453082a-6c18-4aba-a68a-e96622e34f5e")
+		)
+		(pin "9"
+			(uuid "4e235100-1179-47d8-90b1-6d472133c52b")
+		)
+		(pin "4"
+			(uuid "6400168e-e75c-46d9-a80f-157e539d54c5")
+		)
+		(pin "16"
+			(uuid "4127a5b7-18a7-4c06-a5d8-e5d89b8292d1")
+		)
+		(pin "28"
+			(uuid "1d3ea99b-a5a4-4dba-93b8-543b383d399d")
+		)
+		(pin "3"
+			(uuid "4fd85032-4614-48b3-8222-7168c78d2777")
+		)
+		(pin "19"
+			(uuid "afcc7ed4-47e4-4590-a48d-13791d3399b5")
+		)
+		(pin "27"
+			(uuid "75113830-7428-4a38-bd49-b8f25f87b981")
+		)
+		(pin "17"
+			(uuid "68f7e203-936f-40de-ba20-99a389d5f520")
+		)
+		(pin "22"
+			(uuid "f5de1e00-976e-45df-9766-67552ae152d2")
+		)
+		(pin "1"
+			(uuid "477ac909-8a10-4370-8591-72805cb2c7d4")
+		)
+		(pin "24"
+			(uuid "4a1e5bdc-b2d1-4cb9-ad0f-5a00efb81ab5")
+		)
+		(pin "11"
+			(uuid "2d114934-e1aa-45bf-98f2-fc1d9ccaebab")
+		)
+		(pin "12"
+			(uuid "18caa11a-2823-4b5c-a965-4e285013d7a6")
+		)
+		(pin "26"
+			(uuid "1c0025ce-8e51-4081-a47a-8ff6e2770598")
+		)
+		(pin "15"
+			(uuid "877b9100-b573-4425-b46b-16692e172616")
+		)
+		(pin "18"
+			(uuid "5845faf1-22cf-45db-ad97-2945aaf310d9")
+		)
+		(pin "5"
+			(uuid "98f3a8e3-f388-4d98-88ee-89f17a9e5240")
+		)
+		(pin "6"
+			(uuid "710a0373-e01c-48ad-aca0-43780acd4a64")
+		)
+		(pin "21"
+			(uuid "03750bab-8e92-437a-8c9d-579b1066289c")
+		)
+		(pin "13"
+			(uuid "d251ccbf-b83b-4b0b-a296-29ad220b0fba")
+		)
+		(pin "8"
+			(uuid "dbeb85cf-da6a-4d79-bc68-5dff4e190869")
+		)
+		(pin "23"
+			(uuid "06b329e8-406a-415a-b650-aa939c2f3c73")
+		)
+		(pin "14"
+			(uuid "99fbcad8-c613-42d4-a690-76814f1d91c6")
+		)
+		(instances
+			(project "christmastreedriver"
+				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35/4b97c7ff-a227-414c-9641-03bffe5fba15"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8743,128 +8510,6 @@
 			(project "christmastreedriver"
 				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35/4b97c7ff-a227-414c-9641-03bffe5fba15"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "frank_partdb:CR0402AJ/-000GLF")
-		(at 142.24 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dc562a5-3d3a-4f52-8f5b-f7ebb07c0575")
-		(property "Reference" "R16"
-			(at 142.24 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 142.24 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 142.24 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://partdb.franks.dascheese.online/en/part/12/info"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms ±5% Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402AJ/-000GLF"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns Inc."
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB Footprint" "0402"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "12"
-			(at 142.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa0e2154-a896-495c-b1d9-8929b41560cd")
-		)
-		(pin "1"
-			(uuid "5d5c8efd-8b6d-40af-bd0e-3a8c5e58e9a5")
-		)
-		(instances
-			(project "christmastreedriver"
-				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35/4b97c7ff-a227-414c-9641-03bffe5fba15"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11113,128 +10758,6 @@
 			(project "christmastreedriver"
 				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35/4b97c7ff-a227-414c-9641-03bffe5fba15"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "frank_partdb:CR0402AJ/-000GLF")
-		(at 142.24 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d72dde38-a522-4613-810d-a154e2a8d9e0")
-		(property "Reference" "R17"
-			(at 142.24 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 142.24 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 142.24 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://partdb.franks.dascheese.online/en/part/12/info"
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms ±5% Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors"
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402AJ/-000GLF"
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns Inc."
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" "Active"
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB Footprint" "0402"
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "12"
-			(at 142.24 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "74501b42-0189-435a-8d07-dfc9a61658ec")
-		)
-		(pin "1"
-			(uuid "d4124391-bde5-4449-bf14-bce39b047f2c")
-		)
-		(instances
-			(project "christmastreedriver"
-				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35/4b97c7ff-a227-414c-9641-03bffe5fba15"
-					(reference "R17")
 					(unit 1)
 				)
 			)
