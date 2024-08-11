@@ -14,7 +14,7 @@ const int I2C_SCL = 22; // SCL (Serial Clock)
 void setup() {
   // Initialize SPI
   SPI.begin();
-  SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE0));
+  // SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE0));
   pinMode(SPI_CS, OUTPUT);
 
   // Initialize I2C
