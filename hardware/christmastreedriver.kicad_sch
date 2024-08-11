@@ -1213,28 +1213,28 @@
 		(uuid "38e86578-d730-4f97-a131-e1384a8f2052")
 	)
 	(junction
-		(at 134.62 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e23da00-fc2e-4085-a5a6-61930bdc0e4c")
-	)
-	(junction
-		(at 184.15 69.85)
+		(at 184.15 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42085d8b-1354-45bb-9144-a3d0e38e0489")
 	)
 	(junction
-		(at 90.17 57.15)
+		(at 90.17 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a20cca37-7117-454e-8669-96726ddc7ca3")
 	)
 	(junction
-		(at 80.01 57.15)
+		(at 80.01 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a53a4e95-c62d-43ee-a619-baf12fe15751")
+	)
+	(junction
+		(at 233.68 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bab0582f-4cd0-43f1-b193-2078a30b8061")
 	)
 	(no_connect
 		(at 80.01 105.41)
@@ -1276,13 +1276,23 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 90.17 57.15)
+			(xy 90.17 63.5) (xy 90.17 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1fa3671c-c51e-4ee4-a42e-5ea52779b774")
+	)
+	(wire
+		(pts
+			(xy 124.46 74.93) (xy 139.7 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc2d54d-8993-46a0-a4bc-c819761b4018")
 	)
 	(wire
 		(pts
@@ -1306,6 +1316,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 77.47) (xy 233.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0faff9-74d0-4715-83bf-6bbfb18bfca1")
+	)
+	(wire
+		(pts
 			(xy 176.53 93.98) (xy 195.58 93.98)
 		)
 		(stroke
@@ -1316,7 +1336,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 57.15) (xy 90.17 57.15)
+			(xy 80.01 49.53) (xy 90.17 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1336,23 +1356,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 69.85) (xy 195.58 69.85)
+			(xy 233.68 77.47) (xy 233.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed08600-45b2-4bc4-88bb-7914384497a2")
+	)
+	(wire
+		(pts
+			(xy 184.15 63.5) (xy 195.58 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ef29238-2653-42de-a4dd-01105d464942")
-	)
-	(wire
-		(pts
-			(xy 124.46 76.2) (xy 134.62 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f310109-de93-4e61-a0d6-4e2677383769")
 	)
 	(wire
 		(pts
@@ -1386,7 +1406,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 76.2) (xy 139.7 76.2)
+			(xy 134.62 71.12) (xy 139.7 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +1416,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 57.15) (xy 90.17 57.15)
+			(xy 124.46 77.47) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae29fd7-3bf0-4366-a8a3-6f95f6b168d2")
+	)
+	(wire
+		(pts
+			(xy 93.98 49.53) (xy 90.17 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1426,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 80.01) (xy 139.7 80.01)
+			(xy 124.46 82.55) (xy 139.7 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1496,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 139.7 82.55)
+			(xy 124.46 80.01) (xy 139.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c0978a-0374-4975-9d04-b182a1464673")
+	)
+	(wire
+		(pts
+			(xy 124.46 85.09) (xy 139.7 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1516,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 69.85) (xy 184.15 69.85)
+			(xy 124.46 63.5) (xy 184.15 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 57.15) (xy 134.62 76.2)
+			(xy 134.62 49.53) (xy 134.62 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1526,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 57.15) (xy 134.62 57.15)
+			(xy 124.46 49.53) (xy 134.62 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1536,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 57.15) (xy 80.01 74.93)
+			(xy 80.01 49.53) (xy 80.01 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1556,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 69.85) (xy 93.98 69.85)
+			(xy 90.17 63.5) (xy 93.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1587,7 +1627,7 @@
 		(uuid "62b387c5-391c-4c97-a291-27445efd1678")
 	)
 	(label "I2C_SCL"
-		(at 127 80.01 0)
+		(at 127 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1620,7 +1660,7 @@
 		(uuid "d5a70f6d-4afb-4ce2-9f46-8f65e4131dab")
 	)
 	(label "I2C_SDA"
-		(at 127 82.55 0)
+		(at 127 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1922,7 +1962,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 184.15 69.85 0)
+		(at 184.15 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1931,7 +1971,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f9c83a8-d1d0-4418-809b-f922aeea0ff3")
 		(property "Reference" "#PWR07"
-			(at 184.15 73.66 0)
+			(at 184.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +1980,7 @@
 			)
 		)
 		(property "Value" "VBUS_Switched"
-			(at 184.15 64.77 0)
+			(at 184.15 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +1988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 69.85 0)
+			(at 184.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1997,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 69.85 0)
+			(at 184.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +2006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 184.15 69.85 0)
+			(at 184.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +2028,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 80.01 57.15 0)
+		(at 80.01 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1997,7 +2037,7 @@
 		(fields_autoplaced yes)
 		(uuid "b744d5cb-1f41-4116-ae53-13e800967dc9")
 		(property "Reference" "#PWR0101"
-			(at 80.01 60.96 0)
+			(at 80.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,7 +2046,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 80.01 52.07 0)
+			(at 80.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 57.15 0)
+			(at 80.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 57.15 0)
+			(at 80.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +2072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 80.01 57.15 0)
+			(at 80.01 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,6 +2161,7 @@
 	(symbol
 		(lib_id "frank_partdb:M8S-03PMMR-SF8001")
 		(at 241.3 85.09 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -2128,7 +2169,7 @@
 		(dnp no)
 		(uuid "dd0caa63-f7ad-4e44-ac28-c06b7cc8691c")
 		(property "Reference" "J1"
-			(at 243.84 83.8199 0)
+			(at 243.84 86.3601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2178,7 @@
 			)
 		)
 		(property "Value" "M8S-03PMMR-SF8001"
-			(at 243.84 86.3599 0)
+			(at 243.84 83.8201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,75 +2288,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffb624f5-a788-4441-8b24-6a33ba90b41e")
-		(property "Reference" "#PWR08"
-			(at 241.3 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ea268ea-f108-41a8-bd71-f5bdf48ec9c1")
-		)
-		(instances
-			(project "christmastreedriver"
-				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 93.98 67.31)
-		(size 30.48 17.78)
+		(at 93.98 60.96)
+		(size 30.48 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2326,7 +2301,7 @@
 		)
 		(uuid "1a8a0ff3-5f1f-48eb-aeb8-35a38c92b0b8")
 		(property "Sheetname" "USB PD"
-			(at 93.98 66.5984 0)
+			(at 93.98 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2310,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_pd.kicad_sch"
-			(at 93.98 85.6746 0)
+			(at 93.98 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2344,7 +2319,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 124.46 80.01 0)
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2329,7 @@
 			(uuid "96ca5846-bfd5-4d91-80d7-cbf5f4437009")
 		)
 		(pin "SCL" input
-			(at 124.46 82.55 0)
+			(at 124.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2339,7 @@
 			(uuid "323d4095-b5b0-4e00-9702-1cc99a6047d2")
 		)
 		(pin "VBUS_IN" input
-			(at 93.98 69.85 180)
+			(at 93.98 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +2349,7 @@
 			(uuid "78c3fff1-5c97-4209-920b-0aae05e20dff")
 		)
 		(pin "Reset" input
-			(at 124.46 76.2 0)
+			(at 124.46 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +2379,7 @@
 			(uuid "18cd3846-4746-467b-822c-80f466143086")
 		)
 		(pin "VBUS_OUT" input
-			(at 124.46 69.85 0)
+			(at 124.46 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,6 +2387,26 @@
 				(justify right)
 			)
 			(uuid "683eefe5-03b3-45e7-9db6-f7ef2a49cfe4")
+		)
+		(pin "Alert" output
+			(at 124.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a443aec-81f4-47c2-b9d2-98743339242b")
+		)
+		(pin "Attach" output
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c7f5e266-057f-43ee-a42a-f74c6e3be628")
 		)
 		(instances
 			(project "christmastreedriver"
@@ -2422,7 +2417,7 @@
 		)
 	)
 	(sheet
-		(at 93.98 54.61)
+		(at 93.98 46.99)
 		(size 30.48 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -2434,7 +2429,7 @@
 		)
 		(uuid "29640b0c-966d-44d3-b67c-41831bfdc576")
 		(property "Sheetname" "Power Supply"
-			(at 93.98 53.8984 0)
+			(at 93.98 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2438,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 93.98 60.2746 0)
+			(at 93.98 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2447,7 @@
 			)
 		)
 		(pin "Reset" output
-			(at 124.46 57.15 0)
+			(at 124.46 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2457,7 @@
 			(uuid "55d4e254-153d-4773-bd1e-4ecfbd031b7f")
 		)
 		(pin "Supply In" input
-			(at 93.98 57.15 180)
+			(at 93.98 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,8 +2475,8 @@
 		)
 	)
 	(sheet
-		(at 139.7 73.66)
-		(size 36.83 36.83)
+		(at 139.7 68.58)
+		(size 36.83 41.91)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2492,7 +2487,7 @@
 		)
 		(uuid "4b97c7ff-a227-414c-9641-03bffe5fba15")
 		(property "Sheetname" "Microcontroller"
-			(at 139.7 72.9484 0)
+			(at 139.7 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2525,7 @@
 			(uuid "668a226f-20aa-4f98-8aac-1b059319041d")
 		)
 		(pin "I2C_SDA" input
-			(at 139.7 82.55 180)
+			(at 139.7 85.09 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2545,7 @@
 			(uuid "16fb4f7b-c614-4aef-ba96-5b1f92ee943b")
 		)
 		(pin "I2C_SCL" input
-			(at 139.7 80.01 180)
+			(at 139.7 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2565,7 @@
 			(uuid "3297e3dc-bf09-41d5-a2a9-013707e584d7")
 		)
 		(pin "Reset" input
-			(at 139.7 76.2 180)
+			(at 139.7 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,6 +2644,36 @@
 			)
 			(uuid "103486ed-e638-45d6-89b2-68cd146f1db9")
 		)
+		(pin "PD_Alert" input
+			(at 139.7 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "daf74e32-4be0-451b-9c7a-100b0367e946")
+		)
+		(pin "PD_Reset" output
+			(at 139.7 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b177039c-765e-4c59-a385-74d0764caa8c")
+		)
+		(pin "PD_Attach" input
+			(at 139.7 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fa08cd2-6d31-4861-8071-0c62c328031a")
+		)
 		(instances
 			(project "christmastreedriver"
 				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35"
@@ -2658,8 +2683,8 @@
 		)
 	)
 	(sheet
-		(at 195.58 67.31)
-		(size 27.94 43.18)
+		(at 195.58 57.15)
+		(size 27.94 53.34)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2670,7 +2695,7 @@
 		)
 		(uuid "c4ebb17b-6d24-4443-8bca-d758e815f340")
 		(property "Sheetname" "Bridge Driver"
-			(at 195.58 66.5984 0)
+			(at 195.58 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2833,7 @@
 			(uuid "2ae2df46-5025-43ee-92c8-0209d997fcde")
 		)
 		(pin "Supply" input
-			(at 195.58 69.85 180)
+			(at 195.58 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)

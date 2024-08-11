@@ -5108,6 +5108,10 @@
 		(uuid "724d50c0-4be2-4143-88f5-d3de7a1d7d82")
 	)
 	(no_connect
+		(at 107.95 29.21)
+		(uuid "8e95078f-6d93-44eb-83a7-71175eecf605")
+	)
+	(no_connect
 		(at 100.33 128.27)
 		(uuid "9305677d-0b8b-4a60-bd57-5a2ee28181f3")
 	)
@@ -6157,6 +6161,18 @@
 		)
 		(uuid "0529b71a-1fde-419e-a948-dfe8a93654f7")
 	)
+	(hierarchical_label "PD_Reset"
+		(shape output)
+		(at 208.28 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ebe11c1-b125-4ef5-8158-e7c81f26720d")
+	)
 	(hierarchical_label "DRIVE_A"
 		(shape output)
 		(at 208.28 116.84 180)
@@ -6241,6 +6257,18 @@
 		)
 		(uuid "b70803f1-a82e-4be6-8111-feb35345a2e4")
 	)
+	(hierarchical_label "PD_Alert"
+		(shape input)
+		(at 208.28 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf059d91-db72-4a7b-8cbe-1d94574bd848")
+	)
 	(hierarchical_label "SPI_MISO"
 		(shape input)
 		(at 255.27 101.6 0)
@@ -6252,6 +6280,18 @@
 			(justify left)
 		)
 		(uuid "cc5bb35f-3656-475d-8660-ea122643a46f")
+	)
+	(hierarchical_label "PD_Attach"
+		(shape input)
+		(at 208.28 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d43f7585-f382-4cc8-bdcb-f7b4fdbcbd05")
 	)
 	(hierarchical_label "SPI_SCLK"
 		(shape input)
@@ -7187,73 +7227,6 @@
 			(project "christmastreedriver"
 				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35/4b97c7ff-a227-414c-9641-03bffe5fba15"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 29.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "332fb559-7287-43e7-8c3d-9ccadd633cda")
-		(property "Reference" "#PWR0104"
-			(at 107.95 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b7bd87b-341f-4860-babb-d7791ecdc614")
-		)
-		(instances
-			(project "christmastreedriver"
-				(path "/e5e61a32-0573-464a-9319-78c3ec7b0a35/4b97c7ff-a227-414c-9641-03bffe5fba15"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
